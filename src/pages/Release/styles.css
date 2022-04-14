@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.ContainerRelease {
+  width: 100%;
+  height: auto;
+}
+
+.ContainerRelease header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 5px;
+}
+
+.ContainerRelease header h2 {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.ContainerRelease header h2:hover {
+  text-decoration: underline;
+}
+
+.ContainerRelease header a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ContainerRelease .containerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ContainerRelease .containerBox .box {
+  width: 180px;
+  height: 250px;
+  background-color: #282828;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ContainerRelease .containerBox .box #img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.ContainerRelease .containerBox .box .info {
+  margin: 10px 0;
+}
+
+.ContainerRelease .containerBox .box .info h3 {
+  color: white;
+  font-size: 16px;
+}
+
+.ContainerRelease .containerBox .box .info p {
+  font-size: 13px;
+  color: #b3b3b3;
+  font-weight: 600;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

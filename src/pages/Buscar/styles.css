@@ -1,0 +1,86 @@
+.ContainerBuscar .ContainerNav {
+  width: 100%;
+  height: auto;
+}
+
+.ContainerBuscar .ContainerNav header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 5px;
+}
+
+.ContainerBuscar .ContainerNav header h2 {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.ContainerBuscar .ContainerNav header h2:hover {
+  text-decoration: underline;
+}
+
+.ContainerBuscar .containerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ContainerBuscar .containerBox .box {
+  width: 190px;
+  height: 200px;
+  margin: 8px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ContainerBuscar .containerBox .box img {
+  width: 100px;
+  border-radius: 5px;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  position: relative;
+  top: 59px;
+  left: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ContainerBuscar .containerBox .box .info {
+  margin: 10px 0;
+  width: 150px;
+  word-wrap: break-word;
+}
+
+.ContainerBuscar .containerBox .box .info h3 {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.ContainerBuscar .containerBox .box .info p {
+  font-size: 13px;
+  color: #b3b3b3;
+  font-weight: 600;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=styles.css.map */
