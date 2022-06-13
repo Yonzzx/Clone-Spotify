@@ -5,10 +5,10 @@ import { MdHomeFilled } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 import { VscLibrary } from "react-icons/vsc";
 import { RiAddBoxLine } from "react-icons/ri";
-import { IoIosArrowBack } from 'react-icons/io'
-import { IoIosArrowForward } from 'react-icons/io'
-import { IoMdArrowDropdown } from 'react-icons/io'
-import {IoMdArrowDropup} from 'react-icons/io'
+import { IoIosArrowBack ,  
+        IoIosArrowForward , 
+        IoMdArrowDropdown ,
+        IoMdArrowDropup } from 'react-icons/io'
 import api from '../../api'
 import Input from './input';
 
